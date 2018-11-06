@@ -1,0 +1,63 @@
+.itemPageWrapper {
+  padding: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column; }
+  .itemPageWrapper .itemImgWrapper {
+    background: #eee;
+    flex: 1;
+    min-height: 50vh; }
+  .itemPageWrapper .itemInfoWrapper {
+    margin-top: 2rem;
+    flex: 1; }
+  .itemPageWrapper .itemName {
+    margin: 1rem 0 .5rem 0; }
+  .itemPageWrapper .seller {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: rgba(34, 34, 34, 0.55); }
+    .itemPageWrapper .seller span {
+      font-weight: 800;
+      color: #222; }
+  .itemPageWrapper .itemCost {
+    color: #555555;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500; }
+  .itemPageWrapper .backLink {
+    font-size: .9rem;
+    color: rgba(34, 34, 34, 0.55);
+    cursor: pointer;
+    transition: color .2s;
+    font-weight: 500; }
+    .itemPageWrapper .backLink span.small svg {
+      transform: rotateZ(90deg);
+      transition: color .2s;
+      fill: rgba(34, 34, 34, 0.55);
+      font-weight: 800; }
+    .itemPageWrapper .backLink:hover, .itemPageWrapper .backLink:active {
+      color: #222; }
+      .itemPageWrapper .backLink:hover span svg, .itemPageWrapper .backLink:active span svg {
+        fill: #222; }
+  .itemPageWrapper button {
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: opacity .3s; }
+    .itemPageWrapper button:hover {
+      opacity: .8; }
+  .itemPageWrapper .reqTradeBtn {
+    margin: 3rem 0 0 0;
+    background: #222;
+    color: #fff; }
+    .imageItemPage{
+      
+      display: block;
+      margin: auto;
+      object-fit: contain;
+      max-height: 100%;
+      max-width: 100%;
+    }
+  
