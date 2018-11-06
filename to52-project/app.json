@@ -1,8 +1,0 @@
-{
-    "name": "Node.js backend TO52",
-    "description":"ExpressJS web api backend for to52 project",
-    "repository": "https://bitbucket.org/ahmed_bouenba/to52-project.git",
-    "logo": "",
-    "keywords": ["NodeJS","ExpressJS","REST","API"],
-    "image": "heroku/nodejs"
-}
