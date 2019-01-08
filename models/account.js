@@ -1,25 +1,41 @@
-var mongoose = require ('mongoose');
-//var validator = require('validator');
+//DEL_S_BG_keep only one user model 
 
-var AccountSchema = new mongoose.Schema({
-    email: {
+// var mongoose = require ('mongoose');
 
-        required: true,
-        type: String,
-        trim: true,
-        minlegth: 1,
-        unique: true,
-        // validate: {
-        //     validator: validator.isEmail,
-        //     message: '{VALUE} is not a valid email'
-        // }
-    },
-    password: {
-        type : String,
-        require: true,
-        minlegth: 6
-    },
+// var AccountSchema = new mongoose.Schema({
+//     email: {
+//         required: true,
+//         type: String,
+//         trim: true,
+//         minlegth: 1,
+//         unique: true,
+//     },
 
-});
+// //ADD_S_BG_register
+//     username: {
+//         type: String,
+//         unique: true,
+//         required: true,
+//         trim: true
+//       },    
+//  //ADD_S_ED_register
 
-module.exports = mongoose.model('Account', AccountSchema);
+//     password: {
+//         type : String,
+//         require: true,
+//         minlegth: 6
+//     },
+
+//     data: {
+//         type: Date,
+//         default: Date.now
+//     }
+
+// //ADD_S_BG_admin
+//     isAdmin: Boolean
+// //ADD_S_ED_admin
+// });
+
+// module.exports = mongoose.model('Account', AccountSchema);
+
+//DEL_S_ED_keep only one user model 
